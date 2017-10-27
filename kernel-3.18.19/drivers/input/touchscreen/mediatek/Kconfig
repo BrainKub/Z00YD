@@ -120,4 +120,16 @@ config TOUCHSCREEN_MTK_FT5X0X
 
 source "drivers/input/touchscreen/mediatek/ft5x0x/Kconfig"
 
+config TOUCHSCREEN_HIMAX_HX852xES
+	bool "Himax touchpanel HX852xES series"
+	depends on I2C
+	help
+	  Say Y here if you have a Himax HX852xES touchscreen.
+	  HX852xES controllers are multi touch controllers which can
+	  report 10 touches at a time.
+
+          If unsure, say N.
+
+source "drivers/input/touchscreen/mediatek/Himax852xES/Kconfig"	
+
 endif
