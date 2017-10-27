@@ -30,11 +30,11 @@ static u8 g_proximity_en = 0;
 #if defined(HX_AUTO_UPDATE_FW)||defined(HX_AUTO_UPDATE_CONFIG)
 	static unsigned char i_CTPM_FW_BOE[]=
 	{
-		#include "E280_E411_CID5301_C05_20160421.i" //BOE FW update!
+//		#include "E280_E411_CID5301_C05_20160421.i" //BOE FW update!
 	};
 	static unsigned char i_CTPM_FW_HLT[]=
 	{
-		#include "E280L_HLT_Wind_E411_C09_20160706.i"//HLT FW update!
+//		#include "E280L_HLT_Wind_E411_C09_20160706.i"//HLT FW update!
 	};
 #endif 
 //dingyisheng 20160407 end
